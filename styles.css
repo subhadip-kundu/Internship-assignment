@@ -79,15 +79,24 @@ header {
   z-index: -1;
 }
 
-
 /* Features section */
 
-.Features{
+.Features {
   font-family: "Clash Display", sans-serif;
 }
 
 /* Advantages section */
 
-.advantages{
+.advantages {
+  font-family: "Clash Display", sans-serif;
+}
+
+/* Customizable section */
+.Customizable {
+  font-family: "Clash Display", sans-serif;
+}
+
+/* Testimonial Section */
+.Testimonial {
   font-family: "Clash Display", sans-serif;
 }
