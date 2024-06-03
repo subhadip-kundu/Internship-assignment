@@ -25,8 +25,8 @@ The project is a responsive app landing page designed using HTML and Tailwind CS
 
 ## Demo
 
-![image](https://github.com/subhadip-kundu/Internship-assignment/assets/124190254/bd0c3b57-e116-4466-be50-c1b377dd33cf)
 ![image](https://github.com/subhadip-kundu/Internship-assignment/assets/124190254/28e9b102-e33f-410d-90e2-2aa966ef6ce5)
+![image](https://github.com/subhadip-kundu/Internship-assignment/assets/124190254/bd0c3b57-e116-4466-be50-c1b377dd33cf)
 
 
 ## Installation
