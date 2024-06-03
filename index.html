@@ -16,10 +16,10 @@
 <body class="overflow-x-hidden">
     <!-- Nav section -->
     <nav class="w-full relative">
-        <div class="mt-10 bg-white flex max-w-5xl mx-auto justify-between">
-            <div class="flex items-center justify-between w-1/2 ">
-                <a href="#"><img class="w-[117px] h-9 " src="./asset/Logo.png" alt="logo"></a>
-
+        <div class="mt-10 bg-white flex flex-col lg:flex-row max-w-5xl mx-auto justify-between">
+            <div class="flex items-center justify-between w-full lg:w-1/2">
+                <a href="#"><img class="w-[117px] h-9" src="./asset/Logo.png" alt="logo"></a>
+    
                 <ul class="flex gap-5 text-xl font-medium">
                     <li>
                         <a class="text-red-500 font-bold relative transition duration-300 before:absolute before:-bottom-1 before:left-0 before:h-[2px] before:w-0 before:bg-red-600 before:transition-width before:duration-300 hover:before:w-full"
@@ -40,16 +40,15 @@
                 </ul>
             </div>
             <div
-                class="bg-black text-white w-44 py-4 rounded-md flex items-center justify-center transform transition duration-300 ease-in-out hover:bg-red-500 hover:scale-105 hover:text-black hover:font-semibold cursor-pointer">
+                class="mt-5 lg:mt-0 bg-black text-white lg:w-44 py-4 rounded-md flex items-center justify-center transform transition duration-300 ease-in-out hover:bg-red-500 hover:scale-105 hover:text-black hover:font-semibold cursor-pointer">
                 <button class="focus:outline-none">Download</button>
             </div>
         </div>
-
+    
         <img id="star1" src="./asset/Star 1.png" alt="star">
         <img id="star2" src="./asset/Star 1.png" alt="star">
-
-
     </nav>
+    
 
     <!--Header section  -->
 
@@ -290,7 +289,7 @@
             <div class="relative w-full lg:w-[600px] flex flex-col justify-center pl-0 lg:pl-10 gap-5 mb-10 lg:mb-0">
                 <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 text-white">Ready To Get Started?</h1>
                 <p class="text-base md:text-lg text-wrap text-white">Risus Habitant Leo Egestas Mauris Diam Eget Morbi Tempus Vulputate.</p>
-                <button class="bg-white text-black font-medium py-2 px-6 text-lg rounded-md shadow-lg flex items-center justify-center gap-4 w-fit">
+                <button class="cursor-pointer bg-white text-black font-medium py-2 px-6 text-lg rounded-md shadow-lg flex items-center justify-center gap-4 w-fit">
                     Download App
                     <img class="w-5 md:w-7 pb-2" src="./asset/Vectorapple.png" alt="apple-icon">
                 </button>
@@ -376,7 +375,7 @@
                         class="rounded-t-lg md:rounded-l-lg md:rounded-t-none p-5 w-full font-medium outline-none"
                         placeholder="Your email" required>
                     <button type="submit"
-                        class="bg-black text-white rounded-b-lg md:rounded-r-lg md:rounded-b-none px-10 py-3 md:py-0">Subscribe</button>
+                        class="cursor-pointer bg-black text-white rounded-b-lg md:rounded-r-lg md:rounded-b-none px-10 py-3 md:py-0">Subscribe</button>
                 </form>
             </div>
         </div>
