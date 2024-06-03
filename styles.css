@@ -106,3 +106,17 @@ header {
 .faq{
   font-family: "Clash Display", sans-serif;
 }
+
+/* Footer section */
+
+footer {
+  font-family: "Clash Display", sans-serif;
+}
+.gradient-line {
+  position: relative;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #000, transparent);
+  margin: 20px auto;
+  width: 1200px;
+  
+}
