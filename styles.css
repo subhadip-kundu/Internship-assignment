@@ -101,9 +101,8 @@ header {
   font-family: "Clash Display", sans-serif;
 }
 
-
 /* FAQ Section */
-.faq{
+.faq {
   font-family: "Clash Display", sans-serif;
 }
 
@@ -118,5 +117,16 @@ footer {
   background: linear-gradient(to right, transparent, #000, transparent);
   margin: 20px auto;
   width: 1200px;
+}
+
+.Promo {
+  font-family: "Clash Display", sans-serif;
+}
+
+[alt="iphone-13-pro"]{
+  background-image: url('./asset/Group\ 1000002356.png');
+  background-size: 70%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
   
 }
